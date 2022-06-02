@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    int a ,b ,q ,r;
+
+    
+    printf("insira o valor decimal \t");
+    scanf("%d" ,&a);
+    
+    while(D>=8){
+        q = a / 8;
+        r = a % 8;
+        printf("%d" ,r);
+        printf("%d" ,q);
+        a = q;
+    }
+    
+    return 0;
+}
