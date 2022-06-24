@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    int I ;
+    
+    for(I = 0 ;I<=5;i++) {
+        printf("\n informe a nota do aluno com matricula %d" ,I);
+        scanf("%d" , &I);
+        
+        
+    }
+    return 0;
+}
